@@ -12,12 +12,12 @@ import Sigup from "./sigup/index.jsx";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <BrowserRouter>
-      <Routes>
+      <Routes path="/">
         <Route path="/" element={<App />} />
-        <Route path="Giohang" element={<Giohang />}></Route>
-        <Route path="Thanhtoan" element={<Thanhtoan />}></Route>
-        <Route path="Login" element={<Login />}></Route>
-        <Route path="sigup" element={<Sigup />}></Route>
+        <Route path="/Giohang" element={<Giohang />}></Route>
+        <Route path="/Thanhtoan" element={<Thanhtoan />}></Route>
+        <Route path="/Login" element={<Login />}></Route>
+        <Route path="/sigup" element={<Sigup />}></Route>
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
